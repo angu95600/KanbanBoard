@@ -1,0 +1,9 @@
+#cars{
+    display: flex;
+    justify-content: left;
+    padding: 1rem 1rem;
+}
+.dropbtn{
+    width: 6rem;
+    font-weight: bold;
+}
