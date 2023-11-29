@@ -1,5 +1,3 @@
-// TicketGroup.js - TicketGroup component
-
 import React from 'react';
 import Ticket from './Ticket';
 import '../App.css'
@@ -58,6 +56,12 @@ const TicketGroup = ({ groupTitle, tickets }) => {
           <div className="count">
            {tickets.length}
           </div>
+          <span class="material-symbols-outlined" >
+add
+          </span>
+          <span class="material-symbols-outlined">
+more_horiz
+</span>
         </div>
         
       </div>
